@@ -1,0 +1,27 @@
+{
+  "groups": [
+    {
+      "name": "MongoDB",
+      "type": "com.indream.amazon.configuration.MultipleMongoDBManager",
+      "sourceType": "com.indream.amazon.configuration.MultipleMongoDBManager"
+    }
+  ],
+  "properties": [
+    {
+      "name": "MongoDB.customer-mongo-prop",
+      "type": "org.springframework.boot.autoconfigure.mongo.MongoProperties",
+      "sourceType": "com.indream.amazon.configuration.MultipleMongoDBManager"
+    },
+    {
+      "name": "MongoDB.employee-mongo-prop",
+      "type": "org.springframework.boot.autoconfigure.mongo.MongoProperties",
+      "sourceType": "com.indream.amazon.configuration.MultipleMongoDBManager"
+    },
+    {
+      "name": "MongoDB.name",
+      "type": "java.lang.String",
+      "sourceType": "com.indream.amazon.configuration.MultipleMongoDBManager"
+    }
+  ],
+  "hints": []
+}
